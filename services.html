@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-PX3Q98P");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/favicon.png" type="image/x-icon" />
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="stylesheets/services.css" />
+    <link rel="stylesheet" href="stylesheets/navbar.css" />
+
+    <!-- Font awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Services</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="logo">
+        <a href="./index.html"
+          ><img src="./assets/logo.png" alt="Adroittech Logo"
+        /></a>
+      </div>
+      <div class="links">
+        <a href="./index.html">STARTSEITE</a>
+        <a href="./about-us.html">ÜBER UNS</a>
+        <a href="./services.html">DIENSTLEISTUNGEN</a>
+        <a>Blog</a>
+        <a class="contact-us" href="./contact-us.html">KONTAKTIERE UNS</a>
+      </div>
+      <button class="hamberger" onclick="hamClick()">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <div class="mobnav drawerClosed">
+      <a href="./index.html">STARTSEITE</a>
+      <a href="./about-us.html">ÜBER UNS</a>
+      <a href="./services.html">DIENSTLEISTUNGEN</a>
+      <a>Blog</a>
+      <a href="./contact-us.html">KONTAKTIERE UNS</a>
+    </div>
+
+    <!-- Hero -->
+    <div class="hero">
+      <div class="hero-top">
+        <div class="right">Individuelle Softwareentwicklung</div>
+      </div>
+      <div class="hero-main">
+        <div class="content">
+          <!-- <h1>
+                  <span>ENTRIEGLUNG DER</span> <br />
+                  Kraft der KI
+              </h1> -->
+          <h1>ENTDECKEN SIE DIE KRAFT VON</h1>
+          <p>Exzellenz in Technologie, Design und Marketing</p>
+        </div>
+        <img src="./assets/industries-1.png" alt="" />
+        <div class="heading">
+          <h1>
+            AI
+            <div class="square"></div>
+          </h1>
+        </div>
+        <div class="vertical-text">REVOLUTIONÄRE DIGITALE ERLEBNISSE</div>
+      </div>
+    </div>
+
+    <!-- DEVOPS -->
+    <div class="devops" id="devops">
+      <img class="left-oval" src="./assets/industries-left-oval.png" />
+      <div class="content">
+        <h1>DevOps</h1>
+        <p>
+          Nutzen Sie die Power von CI/CD-Tools, Datenanalyse und KI mit Adroit
+          Tech. Wir bieten Softwareentwicklung unter Verwendung von CI/CD-Tools
+          wie Jenkins, Git und Kubernetes, die die Softwareproduktion und
+          -bereitstellung optimieren. Unser agiler Ansatz und
+          Automatisierungstechniken gewährleisten reibungslose Entwicklung.
+          Arbeiten Sie mit uns zusammen für effektive Geschäftswerkzeuge, die
+          das Wachstum fördern.
+        </p>
+      </div>
+      <img class="right-oval" src="./assets/industries-right-oval.png" />
+    </div>
+
+    <!-- UI / UI -->
+    <div class="ui-ux" id="ui-ux">
+      <img class="left-oval" src="./assets/industries-left-oval.png" />
+      <div class="content">
+        <h1>UI/UX</h1>
+        <p>
+          Bei Adroit Tech haben wir uns darauf spezialisiert, lebendige und
+          wirkungsvolle Designs zu erstellen, die Ihr Unternehmen stärken. Unser
+          engagiertes Team folgt akribisch den UX/UI-Richtlinien, um eine
+          nahtlose und benutzerfreundliche Erfahrung für Ihre Kunden
+          sicherzustellen. Wir entwerfen optisch ansprechende Oberflächen, die
+          die Interaktion fördern und Konversionen vorantreiben. Von intuitiver
+          Navigation bis hin zu optimierten Produktpräsentationen
+          berücksichtigen wir sorgfältig jeden Aspekt der Benutzerreise.
+        </p>
+      </div>
+    </div>
+
+    <!-- DIGITAL MARKETING -->
+    <div class="d-marketing" id="digital-marketing">
+      <div class="content">
+        <h1>DIGITALES MARKETING</h1>
+        <p>
+          Adroit Tech bietet umfassende Lösungen im Bereich digitales Marketing,
+          um Ihr Unternehmen zu stärken. Unser Expertenteam hat sich darauf
+          spezialisiert, Verkäufe zu steigern und das Markenimage durch stimmige
+          Strategien zu verbessern. Mit einem Fokus auf SEO, PPC-Werbung und
+          Social-Media-Management maximieren wir Ihre Online-Sichtbarkeit und
+          Interaktion. Arbeiten Sie mit uns zusammen, um maßgeschneiderte
+          Kampagnen zu erleben, die messbare Ergebnisse liefern und Sie im
+          wettbewerbsintensiven digitalen Umfeld voranbringen.
+        </p>
+      </div>
+      <img class="right-oval" src="./assets/industries-right-oval.png" />
+    </div>
+
+    <!-- CARDS -->
+    <div class="cards">
+      <div class="card">
+        <div class="image-outer-container">
+          <div class="image-inner-container">
+            <img src="./assets/industries-card-1.png" />
+          </div>
+        </div>
+        <h1>SAP Fiori</h1>
+        <p>
+          SAP Fiori ist ein moderner Ansatz für das Benutzererlebnis-Design, der
+          neu definiert, wie Unternehmensanwendungen entwickelt und genutzt
+          werden. Es bietet intuitive, auf Rollen basierende Benutzeroberflächen
+          für verschiedene Geräte und steigert die Produktivität und Engagement
+          in Ihrer Organisation.
+        </p>
+        <button>Mehr erfahren</button>
+      </div>
+      <div class="card">
+        <div class="image-outer-container">
+          <div class="image-inner-container">
+            <img src="./assets/industries-card-2.png" />
+          </div>
+        </div>
+        <h1>Python</h1>
+        <p>
+          Python, eine vielseitige und leistungsstarke Programmiersprache,
+          bildet das Rückgrat unserer Lösungen. Ihre Einfachheit, Lesbarkeit und
+          umfangreichen Bibliotheken ermöglichen es uns, robuste Anwendungen zu
+          erstellen, von KI-gesteuerten Tools bis hin zu effizienten Lösungen
+          für Datenanalyse.
+        </p>
+        <button>Mehr erfahren</button>
+      </div>
+      <div class="card">
+        <div class="image-outer-container">
+          <div class="image-inner-container">
+            <img src="./assets/industries-card-3.png" />
+          </div>
+        </div>
+        <h1>NoSQL</h1>
+        <p>
+          NoSQL-Datenbanken revolutionieren die Datenspeicherung durch ihre
+          flexible Schemastruktur und hohe Skalierbarkeit. Unsere Expertise in
+          NoSQL-Datenbanken ermöglicht es uns, effiziente Lösungen zu
+          entwickeln, die große Mengen vielfältiger Daten verarbeiten und
+          optimale Leistung und Agilität für Ihre Anwendungen gewährleisten.
+        </p>
+        <button>Mehr erfahren</button>
+      </div>
+
+      <div class="card">
+        <div class="image-outer-container">
+          <div class="image-inner-container">
+            <img src="./assets/industries-card-4.png" />
+          </div>
+        </div>
+        <h1>CI/CD</h1>
+        <p>
+          Unser schlanker Entwicklungsprozess wird von CI/CD-Tools unterstützt
+          und gewährleistet eine nahtlose Integration, automatisierte Tests und
+          schnelle Bereitstellung. Mit unserer CI/CD-Expertise garantieren wir
+          eine konsistente Softwarelieferung, beschleunigte Innovation und
+          unübertroffene Qualität für Ihre Projekte.
+        </p>
+        <button>Mehr erfahren</button>
+      </div>
+      <div class="card">
+        <div class="image-outer-container">
+          <div class="image-inner-container">
+            <img src="./assets/industries-card-5.png" />
+          </div>
+        </div>
+        <h1>JavaScript</h1>
+        <p>
+          JavaScript, das Rückgrat der modernen Webentwicklung, verleiht unseren
+          Lösungen dynamische Interaktivität und ansprechende
+          Benutzererlebnisse. Mit seiner Vielseitigkeit und weiten Verbreitung
+          erstellen wir responsive Anwendungen, die Benutzer fesseln und
+          begeistern.
+        </p>
+        <button>Mehr erfahren</button>
+      </div>
+      <div class="card">
+        <div class="image-outer-container">
+          <div class="image-inner-container">
+            <img src="./assets/industries-card-6.png" />
+          </div>
+        </div>
+        <h1>Kubernetes</h1>
+        <p>
+          Kubernetes orchestriert die Zukunft der skalierbaren
+          Anwendungsbereitstellung und -verwaltung. Mit unserer Kompetenz in
+          Kubernetes gestalten wir robuste containerisierte Lösungen, die
+          Zuverlässigkeit, Effizienz und mühelose Skalierung für Ihre
+          Unternehmensanwendungen gewährleisten.
+        </p>
+        <button>Mehr erfahren</button>
+      </div>
+      <div class="card">
+        <div class="image-outer-container">
+          <div class="image-inner-container">
+            <img src="./assets/industries-card-6.png" />
+          </div>
+        </div>
+        <h1>SEO</h1>
+        <p>
+          Steigern Sie Ihre Online-Sichtbarkeit und fördern Sie organisches
+          Wachstum mit unseren umfassenden SEO-Strategien. Unsere Expertise in
+          SEO gewährleistet, dass Ihre digitale Präsenz gedeiht, was zu erhöhtem
+          Traffic, höheren Konversionen und einer stärkeren Markenreputation
+          führt.
+        </p>
+        <button>Mehr erfahren</button>
+      </div>
+
+      <!--  -->
+      <div class="card">
+        <div class="image-outer-container">
+          <div class="image-inner-container">
+            <img src="./assets/industries-card-6.png" />
+          </div>
+        </div>
+        <h1>PPC/Display Ads</h1>
+        <p>
+          Verstärken Sie Ihre Online-Reichweite und Konversionen durch gezielte
+          PPC- und Display-Anzeigenkampagnen. Mit datengesteuerten Strategien
+          optimieren wir Ihre Anzeigenausgaben, um Ihre Marke mit dem richtigen
+          Publikum zu verbinden, messbare Ergebnisse und Unternehmenswachstum zu
+          erzielen.
+        </p>
+        <button>Mehr erfahren</button>
+      </div>
+      <div class="card">
+        <div class="image-outer-container">
+          <div class="image-inner-container">
+            <img src="./assets/industries-card-6.png" />
+          </div>
+        </div>
+        <h1>Social Media Management</h1>
+        <p>
+          Heben Sie die Präsenz Ihrer Marke mit professionellem
+          Social-Media-Management hervor. Unsere maßgeschneiderten Strategien
+          binden Zielgruppen ein, schaffen Markenloyalität und fördern
+          bedeutungsvolle Interaktionen, um sicherzustellen, dass Ihr
+          Unternehmen in der dynamischen Welt der sozialen Medien vorn bleibt.
+        </p>
+        <button>Mehr erfahren</button>
+      </div>
+      <div class="card">
+        <div class="image-outer-container">
+          <div class="image-inner-container">
+            <img src="./assets/industries-card-6.png" />
+          </div>
+        </div>
+        <h1>Cloud-Technologie</h1>
+        <p>
+          Begrüßen Sie die Zukunft mit Cloud-Technologie, die die Art und Weise
+          verändert, wie Unternehmen agieren und skalieren. Unsere Kompetenz in
+          GCP, AWS, Azure und SAP BTP ermöglicht es uns, flexible, sichere und
+          leistungsstarke Umgebungen zu gestalten und umzusetzen, die Ihre
+          digitale Transformation antreiben.
+        </p>
+        <button>Mehr erfahren</button>
+      </div>
+
+      <div class="card">
+        <div class="image-outer-container">
+          <div class="image-inner-container">
+            <img src="./assets/industries-card-6.png" />
+          </div>
+        </div>
+        <h1>PHP-Frameworks</h1>
+        <p>
+          Entfesseln Sie das Potenzial von PHP-Frameworks für die robuste und
+          effiziente Entwicklung von Webanwendungen. Mit unserer Kompetenz in
+          führenden PHP-Frameworks liefern wir maßgeschneiderte Lösungen, die
+          nahtlose Funktionalität, Sicherheit und außergewöhnliche
+          Benutzererfahrungen gewährleisten.
+        </p>
+        <button>Mehr erfahren</button>
+      </div>
+      <div class="card">
+        <div class="image-outer-container">
+          <div class="image-inner-container">
+            <img src="./assets/industries-card-6.png" />
+          </div>
+        </div>
+        <h1>Frontend-Entwicklung</h1>
+        <p>
+          Erleben Sie Frontend-Exzellenz mit den React- und Angular-Frameworks.
+          Unsere Beherrschung dieser Technologien ermöglicht es uns, immersive,
+          responsive und funktionsreiche Benutzeroberflächen zu gestalten, die
+          die Benutzerinteraktion steigern und den Geschäftserfolg vorantreiben.
+        </p>
+        <button>Mehr erfahren</button>
+      </div>
+
+      <div class="card">
+        <div class="image-outer-container">
+          <div class="image-inner-container">
+            <img src="./assets/industries-card-6.png" />
+          </div>
+        </div>
+        <h1>E-Mail-Marketing</h1>
+        <p>
+          Nutzen Sie das Potenzial der personalisierten Kommunikation mit
+          unseren strategischen E-Mail-Marketing-Lösungen. Von fesselnden
+          Kampagnen bis zur gezielten Automatisierung maximieren wir Engagement,
+          fördern Leads und steigern Konversionen für Ihr Unternehmen.
+        </p>
+        <button>Mehr erfahren</button>
+      </div>
+
+      <div class="card">
+        <div class="image-outer-container">
+          <div class="image-inner-container">
+            <img src="./assets/industries-card-6.png" />
+          </div>
+        </div>
+        <h1>Marketing-Verkaufstrichter</h1>
+        <p>
+          Navigieren Sie den Weg zum Erfolg mit unseren sorgfältig
+          ausgearbeiteten Verkaufs- und Marketingtrichtern. Wir entwerfen
+          umfassende Strategien, die potenzielle Kunden nahtlos von der
+          Aufmerksamkeit bis zur Konversion führen und jede Phase für maximales
+          Engagement und Wachstum optimieren.
+        </p>
+        <button>Mehr erfahren</button>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="side-social-media-links">
+        <a
+          href="https://www.facebook.com/profile.php?id=100094250503866"
+          target="_blank"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+        <a href="https://www.instagram.com/adroit_tech__/" target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+
+        <a
+          href="https://www.linkedin.com/company/96423285/admin/feed/posts/"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin-in"></i
+        ></a>
+      </div>
+      <div class="heading">
+        <h1>
+          <span>Bereit für eine</span><br />
+          AI-Revolution?
+        </h1>
+        <p>Treten Sie jetzt bei</p>
+      </div>
+      <img src="./assets/map.png" alt="Unser Standort" class="mob-map" />
+
+      <div class="footer-content">
+        <div class="contact">
+          <div>
+            <i><img src="./assets/phone-call.png" /></i>
+            <p>+49 (0) 6229 9336659</p>
+          </div>
+          <div>
+            <i><img src="./assets/whatsapp.png" /></i>
+            <p>+49 (0) 163 5689 364</p>
+          </div>
+          <div>
+            <i><img src="./assets/envelope.png" /></i>
+            <p>info@adroittech.eu</p>
+          </div>
+          <div>
+            <i><img src="./assets/location-pin.png" /></i>
+            <p>Kart-Schmitt-Str 7 69239 Neckarsteinach Deutschland</p>
+          </div>
+        </div>
+        <a
+          href="https://www.google.com/maps/place/PIN+Service-Station/@49.399971,8.845195,16z/data=!4m6!3m5!1s0x4797eb995423ea29:0x2df0065d98767b3f!8m2!3d49.3990587!4d8.8456293!16s%2Fg%2F1thk7prp?hl=de&entry=ttu"
+          target="_blank"
+          ><img src="./assets/map.png" alt="Unser Standort" class="map"
+        /></a>
+
+        <div class="social">
+          <div class="quick-links">
+            <h3>Schnellzugriff</h3>
+            <ul>
+              <li><a href="../index.html">Startseite</a></li>
+              <li><a href="./about-us.html">Über</a></li>
+              <li><a href="./services.html">Dienstleistungen</a></li>
+              <li><a>Blog</a></li>
+            </ul>
+          </div>
+          <div class="clutch">
+            <img src="./assets/clutch.png" alt="clutch" />
+            <p>Bewerten Sie uns auf Clutch</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="scripts/navbar.js"></script>
+  </body>
+</html>
+
+<!-- 
+  
+ -->

@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-PX3Q98P");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/favicon.png" type="image/x-icon" />
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="stylesheets/home.css" />
+    <link rel="stylesheet" href="stylesheets/cookie.css" />
+    <link rel="stylesheet" href="stylesheets/navbar.css" />
+
+    <!-- Font awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Slick stylesheets -->
+    <link rel="stylesheet" href="slick-master/slick/slick.css" />
+    <link rel="stylesheet" href="slick-master/slick/slick-theme.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Adroittech</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="logo">
+        <a href="./index.html"
+          ><img src="./assets/logo.png" alt="Adroittech Logo"
+        /></a>
+      </div>
+      <div class="links">
+        <a href="./index.html">STARTSEITE</a>
+        <a href="./about-us.html">ÜBER UNS</a>
+        <a href="./services.html">DIENSTLEISTUNGEN</a>
+        <a>Blog</a>
+        <a class="contact-us" href="./contact-us.html">KONTAKTIERE UNS</a>
+      </div>
+      <button class="hamberger" onclick="hamClick()">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <div class="mobnav drawerClosed">
+      <a href="./index.html">STARTSEITE</a>
+      <a href="./about-us.html">ÜBER UNS</a>
+      <a href="./services.html">DIENSTLEISTUNGEN</a>
+      <a>Blog</a>
+      <a href="./contact-us.html">KONTAKTIERE UNS</a>
+    </div>
+    <!-- Hero -->
+    <div class="hero">
+      <div class="hero-top">
+        <div class="heading">
+          <h1>
+            AI
+            <div class="square"></div>
+          </h1>
+        </div>
+        <div class="right">Individuelle Softwareentwicklung</div>
+      </div>
+      <div class="hero-main">
+        <div class="vertical-text">REVOLUTIONÄRE DIGITALE ERLEBNISSE</div>
+        <div class="ai-driven">
+          <div class="square"></div>
+          <p>
+            AI-Gestützte <br />
+            Lösungen
+          </p>
+        </div>
+
+        <img src="./assets/hero-robot.png" alt="" />
+        <div class="content">
+          <h1>
+            Wie wir Ihre Erlebnisse<br />
+            revolutionieren
+          </h1>
+          <p>
+            Ihr Online-Geschäft stärken durch <br />
+            AI, CI/CD-Werkzeuge und wirkungsvolles UI/UX-Design
+          </p>
+
+          <a href="./contact-us.html">
+            <button>JETZT KONTAKT AUFNEHMEN</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- STATES BANNER -->
+    <div class="stats">
+      <div class="stat">
+        <h1><span>+</span> $15.7T</h1>
+        <p>
+          Dekadische Umsatzsteigerung <br />
+          durch AI
+        </p>
+      </div>
+
+      <div class="stat">
+        <h1><span>+</span> 95%</h1>
+        <p>
+          AI-gestützte Kundeninteraktionen<br />
+          bis 2025
+        </p>
+      </div>
+    </div>
+
+    <!-- Accept new challenges -->
+    <div class="accept">
+      <div class="accept-top">
+        <div class="vertical-text">
+          <div class="square"></div>
+          <p>Unser Potenzial entdecken</p>
+        </div>
+        <div class="heading">
+          <h1>
+            Neue <br />
+            <span>Herausforderungen</span> <br />
+            annehmen
+          </h1>
+        </div>
+        <div class="vertical-text v2">
+          <div class="square"></div>
+          <p>Unser Potenzial entdecken</p>
+        </div>
+      </div>
+      <div class="accept-bottom">
+        <h1>ENTDECKEN</h1>
+        <i class="fa-solid fa-arrow-down-long"></i>
+        <h1>ÜBER UNS</h1>
+      </div>
+    </div>
+
+    <!-- Elevate your business -->
+    <div class="elevate">
+      <div class="elevate-top">
+        <h1><span>Steigern</span> Sie Ihr Unternehmen.</h1>
+        <div>
+          <div class="square"></div>
+          AI
+        </div>
+      </div>
+      <div class="elevate-main">
+        <div class="cards">
+          <div class="card">
+            <div class="card-top"><span>.01</span></div>
+            <div class="card-main">
+              <div class="card-header">Entwicklung</div>
+              <hr />
+              <p class="card-desc">
+                Die Alchemie des Erfolgs: Wir entschlüsseln die Kräfte des
+                Maschinenlernens, der künstlichen Intelligenz und der
+                Datenanalyse.
+              </p>
+              <a href="./services.html#devops"
+                ><button>Mehr erfahren</button></a
+              >
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-top"><span>.02</span></div>
+            <div class="card-main">
+              <div class="card-header">Digitales<br />Marketing</div>
+              <hr />
+              <p class="card-desc">
+                Nutzererfahrungen steigern: Gestaltung fesselnder
+                Schnittstellen, die faszinieren, verbinden und inspirieren.
+              </p>
+              <a href="./services.html#digital-marketing"
+                ><button>Mehr erfahren</button></a
+              >
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-top"><span>.03</span></div>
+            <div class="card-main">
+              <div class="card-header">UI/UX Design</div>
+              <hr />
+              <p class="card-desc">
+                Unternehmen mit wirkungsvollen Strategien für gesteigerte
+                Verkäufe und einprägsames Markenbild stärken.
+              </p>
+              <a href="./services.html#ui-ux"><button>Mehr erfahren</button></a>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+
+    <!-- About us -->
+
+    <div class="about-us">
+      <img class="oval-left" src="./assets/home-oval-left.png" alt="" />
+      <img class="dot" src="./assets/home-dot.png" alt="" />
+      <img class="oval-right" src="./assets/home-oval-right.png" alt="" />
+
+      <div class="content">
+        <h1>Über <span>Uns.</span></h1>
+        <p>
+          Bei Adroit Tech sind wir leidenschaftlich darum bemüht, innovative
+          E-Commerce-Lösungen auf Basis von AI, ML und Datenanalyse zu liefern.
+          Unsere Verwendung von CI/CD-Tools optimiert kritische Abläufe wie
+          Code-Integration, automatisierte Builds und Versionskontrolle, um
+          Unternehmen zu optimaler Produktivität zu verhelfen. Ergänzend zu
+          unseren Angeboten entwirft unser Expertenteam personalisierte digitale
+          Marketingstrategien und beeindruckende Benutzererfahrungen, die
+          gezielten Verkehr generieren und den Umsatz steigern. Wählen Sie
+          Adroit Tech als Ihren strategischen Partner und erleben Sie
+          beispielloses Wachstum im Online-Marktplatz.
+        </p>
+        <a href="./about-us.html"><button>Mehr erfahren</button></a>
+      </div>
+      <img class="robot" src="./assets/about-us-robot.png" alt="Roboter" />
+    </div>
+
+    <!-- Why Us -->
+    <div class="why-us">
+      <img class="robot" src="./assets/why-us-robot.png" alt="Roboter" />
+      <div class="content">
+        <h1>Warum <span>Wir.</span></h1>
+        <p>
+          Wir verstehen, dass jedes Unternehmen einzigartige Anforderungen hat.
+          Genau deshalb gehen wir einen personalisierten Ansatz, um
+          maßgeschneiderte Lösungen zu entwickeln, die sich mit Ihren
+          spezifischen Zielen und Herausforderungen decken. Unsere Verwendung
+          von CI/CD-Tools zur Vereinfachung von Software-Produktion und
+          -Bereitstellung unterscheidet uns von anderen Softwarehäusern.
+          Entscheiden Sie sich für Adroit Tech für außergewöhnliche Qualität,
+          Innovation und maßgeschneiderte digitale Lösungen.
+        </p>
+        <!-- <button>Mehr erfahren</button> -->
+      </div>
+    </div>
+
+    <!-- Video -->
+    <div class="video">
+      <div class="vertical-text">
+        <p>
+          BEREIT FÜR <br />
+          DEN START
+        </p>
+        <i class="fa-solid fa-arrow-up-long"></i>
+      </div>
+
+      <video autoplay loop>
+        <source src="./assets/homepage_video.mp4" type="video/mp4" />
+      </video>
+
+      <div class="vertical-text v2">
+        <p>
+          BEREIT FÜR <br />
+          DEN START
+        </p>
+        <i class="fa-solid fa-arrow-up-long"></i>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="carousel">
+      <div class="tools">
+        <h2>Verwendete Werkzeuge</h2>
+      </div>
+
+      <div class="slider-container">
+        <div class="slider">
+          <h1 class="slide-item">SAP Fiori</h1>
+
+          <h1 class="slide-item">JavaScript</h1>
+          <h1 class="slide-item">Python</h1>
+          <h1 class="slide-item">SQL-Databases</h1>
+          <h1 class="slide-item">CI/CD</h1>
+          <h1 class="slide-item">Kubernetes</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="side-social-media-links">
+        <a
+          href="https://www.facebook.com/profile.php?id=100094250503866"
+          target="_blank"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+        <a href="https://www.instagram.com/adroit_tech__/" target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+
+        <a
+          href="https://www.linkedin.com/company/96423285/admin/feed/posts/"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin-in"></i
+        ></a>
+      </div>
+      <div class="heading">
+        <h1>
+          <span>Bereit für eine</span><br />
+          AI-Revolution?
+        </h1>
+        <p>Treten Sie jetzt bei</p>
+      </div>
+      <img src="./assets/map.png" alt="Unser Standort" class="mob-map" />
+
+      <div class="footer-content">
+        <div class="contact">
+          <div>
+            <i><img src="./assets/phone-call.png" /></i>
+            <p>+49 (0) 6229 9336659</p>
+          </div>
+          <div>
+            <i><img src="./assets/whatsapp.png" /></i>
+            <p>+49 (0) 163 5689 364</p>
+          </div>
+          <div>
+            <i><img src="./assets/envelope.png" /></i>
+            <p>info@adroittech.eu</p>
+          </div>
+          <div>
+            <i><img src="./assets/location-pin.png" /></i>
+            <p>Kart-Schmitt-Str 7 69239 Neckarsteinach Deutschland</p>
+          </div>
+        </div>
+        <a
+          href="https://www.google.com/maps/place/PIN+Service-Station/@49.399971,8.845195,16z/data=!4m6!3m5!1s0x4797eb995423ea29:0x2df0065d98767b3f!8m2!3d49.3990587!4d8.8456293!16s%2Fg%2F1thk7prp?hl=de&entry=ttu"
+          target="_blank"
+          ><img src="./assets/map.png" alt="Unser Standort" class="map"
+        /></a>
+
+        <div class="social">
+          <div class="quick-links">
+            <h3>Schnellzugriff</h3>
+            <ul>
+              <li><a href="../index.html">Startseite</a></li>
+              <li><a href="./about-us.html">Über</a></li>
+              <li><a href="./services.html">Dienstleistungen</a></li>
+              <li><a>Blog</a></li>
+            </ul>
+          </div>
+          <div class="clutch">
+            <img src="./assets/clutch.png" alt="clutch" />
+            <p>Bewerten Sie uns auf Clutch</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Cookie-->
+    <div class="cookie-popup">
+      <div class="text">
+        <h2>Wir legen Wert auf Ihre Privatsphäre.</h2>
+        <p>
+          Wir verwenden Cookies, um Ihr Surferlebnis zu verbessern, personalisierte
+          Anzeigen oder Inhalte zu liefern und unseren Datenverkehr zu analysieren.
+          Durch Klicken auf "Nur Wesentliches" stimmen Sie der Verwendung von Cookies zu.
+        </p>
+      </div>
+      <div class="btns">
+        <button class="essential-button">Nur Wesentliches</button>
+        <button class="reject-button">Alle ablehnen</button>
+      </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="scripts/navbar.js"></script>
+
+    <!-- SLICK SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="text/javascript">
+      $(".slider").slick({
+        //   dots: true,
+        arrows: true,
+        prevArrow:
+          '<button class="slide-arrow prev-arrow"><i class="fa-solid fa-chevron-left"></i></button>',
+        nextArrow:
+          '<button class="slide-arrow next-arrow"><i class="fa-solid fa-chevron-right"></i></button>',
+        infinite: true,
+        autoplay: true,
+        speed: 1500,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 3,
+              infinite: true,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 2,
+              infinite: true,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+            },
+          },
+        ],
+      });
+    </script>
+  </body>
+</html>
